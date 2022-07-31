@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }catch (NumberFormatException exception)
         {
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
-            dialog.setMessage("Error");
+            dialog.setMessage("Error:Wrong input");
             dialog.show();
             Log.d("Error Number Parser", exception.getMessage());
 
