@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }catch (NumberFormatException exception)
         {
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
-            dialog.setMessage("Error:Wrong input");
+            dialog.setMessage("Error:Wrong input, Please enter a valid decimal value");
             dialog.show();
             Log.d("Error Number Parser", exception.getMessage());
 
